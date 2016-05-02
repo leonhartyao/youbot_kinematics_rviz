@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+  <name>youbot_kinematics_rviz</name>
+  <version>0.1.0</version>
+  <description>The youbot_kinematics_rviz package</description>
+
+  
+  <maintainer email="chao.yao@tu-dresden.de">chao</maintainer>
+
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>ik_solver_service</build_depend>
+  <build_depend>std_msgs</build_depend>
+  
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+</package>
